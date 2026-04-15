@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Modeling Human Responses to Multimodal AI Content — MhAIM, T-Lens, HR-MCP (IEEE Computer special issue)." />
+  <title>Modeling Human Responses to Multimodal AI Content · Project Page</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1a1d26;
+      --muted: #5c6370;
+      --accent: #0b57d0;
+      --accent-soft: #e8f0fe;
+      --border: #e2e5eb;
+      --radius: 12px;
+      --shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 8px 24px rgba(16, 24, 40, 0.06);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2rem 1.75rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-size: clamp(1.45rem, 4vw, 1.85rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 0 0 0.5rem;
+    }
+    .venue {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0 0 1.25rem;
+    }
+    .authors {
+      font-size: 1rem;
+      margin: 0 0 0.35rem;
+    }
+    .authors span { white-space: nowrap; }
+    .affil {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin: 0;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 1.35rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.55rem 1rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      text-decoration: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .btn:hover { text-decoration: none; border-color: var(--accent); background: var(--accent-soft); }
+    .btn.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .btn.primary:hover { filter: brightness(1.05); background: var(--accent); }
+    section {
+      margin-top: 1.75rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.5rem 1.75rem;
+    }
+    h2 {
+      font-size: 1.05rem;
+      margin: 0 0 0.75rem;
+      font-weight: 700;
+    }
+    p { margin: 0 0 0.85rem; }
+    p:last-child { margin-bottom: 0; }
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+    li { margin-bottom: 0.55rem; }
+    li:last-child { margin-bottom: 0; }
+    .keywords {
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+    pre {
+      margin: 0;
+      padding: 1rem;
+      background: #0f1419;
+      color: #e6edf3;
+      border-radius: 10px;
+      font-size: 0.78rem;
+      overflow-x: auto;
+      line-height: 1.45;
+    }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">IEEE Computer · Special Issue on Fighting Fake</div>
+      <h1>Modeling Human Responses to Multimodal AI Content</h1>
+      <p class="venue">Manuscript COMSI-2025-12-0245 · Multimodal misinformation &amp; human-centric AI</p>
+      <p class="authors">
+        <span>Zhiqi Shen<sup>†</sup></span> ·
+        <span>Shaojing Fan<sup>†</sup></span> ·
+        <span>Danni Xu</span> ·
+        <span>Terence Sim</span> ·
+        <span>Mohan Kankanhalli</span>
+      </p>
+      <p class="affil">National University of Singapore</p>
+      <p class="affil" style="font-size:0.85rem;margin-top:0.5rem;"><sup>†</sup> Equal contribution</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/shzhiqi/mdm" rel="noopener">GitHub 仓库</a>
+        <a class="btn" href="paper.pdf" title="将 PDF 命名为 paper.pdf 放在仓库根目录后即可访问">论文 PDF</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Abstract</h2>
+      <p>
+        As AI-generated content spreads, so do risks of misinformation. While prior work has focused on detecting AI content,
+        less is known about its influence on human perception and behavior. We introduce the <strong>MhAIM Dataset</strong>,
+        containing 154,552 online posts (111,153 AI-generated), with 8,952 human annotations, enabling large scale analysis
+        and model training of human responses. Our study shows that people are better at identifying AI content when posts
+        include both text and visuals, especially when inconsistencies exist. We propose two composite metrics
+        (trustworthiness and impact) for downstream risk assessment and decision support. We present <strong>T-Lens</strong>,
+        an LLM based system that incorporates predicted human responses to multimodal information, with
+        <strong>HR-MCP</strong> (Human Response Model Context Protocol) enabling seamless integration with any LLM.
+        Our work provides insights and tools for equipping AI systems with human awareness capabilities, offering
+        strategies to mitigate risks of AI driven misinformation.
+      </p>
+      <p class="keywords">
+        <strong>Keywords:</strong> Intelligent agents; Social and Behavioral Sciences; Multimedia applications and multimedia signal processing.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contributions</h2>
+      <ul>
+        <li><strong>T-Lens</strong> — an agent system for human-aligned responses to multimodal content, centered on <strong>HR-MCP</strong> for predicting trustworthiness, impact, receptivity, beliefs, and sharing tendencies with interpretable explanations.</li>
+        <li>Human-study findings on sensitivity to AI-generated content across modalities, informing targeted mitigation strategies.</li>
+        <li><strong>MhAIM</strong> — a large multimodal dataset of human- and AI-generated media with human response annotations for training and analysis.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Citation (BibTeX)</h2>
+      <pre>@article{shen2025modeling,
+  title   = {Modeling Human Responses to Multimodal {AI} Content},
+  author  = {Shen, Zhiqi and Fan, Shaojing and Xu, Danni and Sim, Terence and Kankanhalli, Mohan},
+  journal = {IEEE Computer},
+  year    = {2025},
+  note    = {Special Issue on Fighting Fake: Disinformation and Misinformation}
+}</pre>
+    </section>
+  </div>
+</body>
+</html>
