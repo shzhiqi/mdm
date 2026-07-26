@@ -1,0 +1,15 @@
+gradio
+openai
+anthropic
+google-genai
+mcp
+jinja2
+Pillow
+requests
+torch
+torchvision
+numpy
+ftfy
+regex
+tqdm
+packaging
